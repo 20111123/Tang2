@@ -1,0 +1,808 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    resize: none;
+}
+/* Cor de fundo */
+
+body {
+    background: linear-gradient(rgb(13, 196, 13) 1%, orange 99% );
+    background-repeat: no-repeat;
+    
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---- Menu geral ---- */
+
+.menu {
+    height: 100px;
+    width: 880px;
+    
+    background-color: orange;
+    position: relative;
+    
+    margin-left: 27%;
+    margin-top: 1%;
+    
+    display: flex;
+    
+    border-radius: 60px;
+}
+
+.menu a {
+    padding-right: 30px;
+    padding-top: 26px;
+    padding-left: 40px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+}
+
+
+.hmenu img {
+    height: 100px;
+    width: 100px;
+    
+    margin-top: -25px;
+    margin-left: -50px;
+}
+
+.menu :hover {
+    color: aliceblue;
+    background: rgb(10, 167, 31);
+    border-radius: 60px;
+}
+
+/* ---- Index ---- */
+
+/* ---- Video inicial ---- */
+
+.videos video{
+    margin-top: 10px;
+    
+    width: 1903px;
+    
+    position: relative;
+}
+
+/*  ---- Rodapé Index ---- */
+
+#footer {
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-left: 780px;
+    margin-top: 52px;
+}
+
+.subir img {
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    
+    margin-top: -60px;
+    margin-left: 1840px;
+}
+
+/* ---- Contato ---- */
+
+.caixa {
+    width: 600px;
+    height: 700px;
+    
+    margin-top: 1%;
+    margin-left: 645px;
+    
+    border: 7px solid black;
+    border-radius: 60px;
+    background: aliceblue;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+    
+    margin-left: 20px;
+}
+
+
+/* ---- Sobre ---- */
+
+/* Página 1 do Sobre */
+
+/* ---- Corpo do Jornal ---- */
+
+.jornal {
+    width: 900px;
+    height: 5430px;
+
+    background-color: aliceblue;
+
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.p1 {
+    width: 850px;
+    height: 5250px;
+
+    background-color: rgb(231, 229, 229);
+
+    margin-left: 27px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.troca {
+    margin-top: 5330px;
+    margin-left: 800px;
+
+    position: absolute;
+}
+
+.troca img {
+    height: 90px;
+    width: 90px;
+}
+
+/* ---- Estrutura de texto e imagem ---- */
+.titulos {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 260px;
+}
+
+.conteudos {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.magem {
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+/* Página 2 do Sobre */
+
+.titulos2 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.conteudos2 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.conteudos3 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.magem2 img{
+    width: 800px;
+
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+/* Página 3 do Sobre */
+
+.titulos3 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+.conteudos4 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.conteudos5 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.magem3 img{
+    width: 800px;
+
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+/* Página 4 do Sobre */
+
+.titulos4 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 230px;
+    margin-top: 80px;
+}
+
+.conteudos6 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.conteudos7 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.conteudos8 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.paginacao {
+    position: absolute;
+
+    margin-left: 390px;
+    margin-top: 100px;
+
+    font-size: larger;
+}
+
+/*  ---- Rodapé Sobre ---- */
+
+#footer1 {
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.subir img {
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    
+    margin-top: -60px;
+    margin-left: 1840px;
+}
+
+/* ---- Sobre2 ---- */
+
+/* Página 1 do Sobre2 */
+
+/* ---- Corpo do Jornal2 ---- */
+
+.jornal2 {
+    width: 900px;
+    height: 6285px;
+
+    background-color: aliceblue;
+
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.p2 {
+    width: 850px;
+    height: 6105px;
+
+    background-color: rgb(231, 229, 229);
+
+    margin-left: 27px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+/* ---- Estrutura de texto e imagem ---- */
+
+.titulos12 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 240px;
+}
+
+.magem12 {
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+/* Página 2 do Sobre2 */
+.titulos13 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.magem13 img{
+    margin-top: 50px;
+    margin-left: 220px;
+
+    width: 400px;
+    
+}
+
+/* Página 3 do Sobre2 */
+
+.titulos14 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.magem14 img{
+    margin-top: 50px;
+    margin-left: 210px;
+    
+}
+
+/* Página 4 do Sobre2 */
+
+.titulos15 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.magem15 img{
+    margin-top: 50px;
+    margin-left: 210px;
+    
+    width: 400px;
+}
+
+/* Página 5 do Sobre2 */
+
+.titulos16 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 310px;
+    margin-top: 50px;
+}
+
+.magem16 img{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* Página 6 do Sobre2 */
+
+.titulos17 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.magem17 img{
+    margin-top: 50px;
+    margin-left: 220px;
+
+    width: 400px;
+}
+
+/* Página 7 do Sobre2 */
+
+.titulos18 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.magem18 img{
+    margin-top: 50px;
+    margin-left: 220px;
+
+    width: 400px;
+}
+
+.titulos18 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.magem18 img{
+    margin-top: 50px;
+    margin-left: 220px;
+
+    width: 400px;
+}
+
+/* Página 8 do Sobre2 */
+
+.titulos19 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.magem19 img{
+    margin-top: 50px;
+    margin-left: 85px;
+
+    width: 700px;
+}
+
+.troca2 {
+    margin-top: 6195px;
+    margin-left: 30px;
+
+    position: absolute;
+}
+
+.troca2 img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+/* ---- Modelo ---- */
+
+.titulos5 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
+.modelos {
+    width: 100%;
+    height: 80vh;
+
+    background-color: rgb(134, 201, 35);
+}
+
+.ima1 {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.ima2 {
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 260px;
+}
+
+.sabor {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+    color: green;
+
+    margin-left: 1000px;
+    margin-top: 100px;
+
+    position: absolute;
+}
+
+.preco {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+    color: green;
+
+    margin-left: 630px;
+    margin-top: 390px;
+
+    position: absolute;
+}
+
+.botao {
+    border: 3px solid black;
+    border-radius: 10px;
+
+    background-color: greenyellow;
+
+    margin-top: 550px;
+    margin-left: 50px;
+}
+
+/* ---- Contato ---- */
+
+
+.letra {
+    margin-left: 750px;
+
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 690px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 4px solid #8b6060;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+button {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c40909;
+    color: #030303;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+textarea {
+    resize: none;
+}
+input {
+    color: #1a0f0f;
+}
+
+.caixa1 {
+    width: 510px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+
+.caixa1 {
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.footer3 {
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-left: 760px;
+    margin-top: 185px;
+}
+
+.fabricantes {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 2px solid black;
+
+    width: 500px;
+    height: 100px;
+    
+    padding: 10px;
+    
+    position: absolute;
+
+    margin-left: 1300px;
+    margin-top: 50px;
+}
+
+#conteudo img{
+   margin-left: 1000px;
+   margin-top: 250px ;
+
+   position: absolute;
+}
+
+.abax {
+    margin-left: 1000px;
+    margin-top: 180px;
+    
+    position: absolute;
+}
+
+.abaxi {
+    width: 220px;
+    height: 200px;
+
+    background-color: greenyellow;
+
+    border-radius: 15px;
+    border: 4px solid black;
+
+    position: absolute;
+
+    margin-top: 550px;
+    margin-left: 100px;
+}
+
+.abaxi2 {
+    width: 220px;
+    height: 200px;
+
+    background-color: rgb(255, 47, 47);
+
+    border-radius: 15px;
+    border: 4px solid black;
+
+    position: absolute;
+
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+.abaxi3 {
+    width: 220px;
+    height: 200px;
+
+    background-color: rgb(175, 32, 7);
+
+    border-radius: 15px;
+    border: 4px solid black;
+
+    position: absolute;
+
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* ----  ---- */
+@media screen and (min-width:820px) and (max-width:1180px){
+
+.bodyIndex{
+    width: 10px;
+    height: 1180px;
+}
+
+
+.menu {
+    height: 90px;
+    width: 740px;
+    
+    background-color: orange;
+    position: absolute;
+
+    margin-left: 5%;
+    margin-top: 1%;
+    
+    display: flex;
+    
+} 
+   
+.menu a {
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+    
+    font-size:10px;
+}
+
+.videos video{
+    margin-top: 150px;
+    
+    width: 820px;
+    
+    position: relative;
+}
+
+.hmenu img {
+    height: 90px;
+    width: 90px;
+    
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+#footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px ;
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 500px;
+}
+
+.subir img {
+        width: 50px;
+        height: 50px;
+        
+        display: none;
+
+        position: absolute;
+        
+        margin-top: 0px;
+        margin-left: 10px;
+}
+
+
+
+
+}
