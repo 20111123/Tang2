@@ -28,7 +28,7 @@ html {
     background-color: orange;
     position: relative;
     
-    margin-left: 27%;
+    margin-left: 23%;
     margin-top: 1%;
     
     display: flex;
@@ -125,7 +125,7 @@ html {
 
     background-color: aliceblue;
 
-    margin-left: 500px;
+    margin-left: 350px;
     margin-top: 100px;
 }
 
@@ -311,7 +311,7 @@ html {
 #footer1 {
     font-family: 'Courier New', Courier, monospace;
     
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 50px;
 }
 
@@ -337,7 +337,7 @@ html {
 
     background-color: aliceblue;
 
-    margin-left: 500px;
+    margin-left: 350px;
     margin-top: 100px;
 }
 
@@ -517,26 +517,27 @@ html {
     font-size:xx-large;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
 
-    margin-left: 850px;
-    margin-top: 100px;
+    margin-left: 700px;
+    margin-top: 10px;   
 }
 
 .modelos {
     width: 100%;
-    height: 80vh;
+    height: 110vh;
 
     background-color: rgb(134, 201, 35);
+    margin-top: 0px;
 }
 
 .ima1 {
     position: absolute;
-    margin-left: 600px;
+    margin-left: 400px;
     margin-top: 100px;
 }
 
 .ima2 {
     position: absolute;
-    margin-left: 625px;
+    margin-left: 425px;
     margin-top: 260px;
 }
 
@@ -546,7 +547,7 @@ html {
 
     color: green;
 
-    margin-left: 1000px;
+    margin-left: 800px;
     margin-top: 100px;
 
     position: absolute;
@@ -558,7 +559,7 @@ html {
 
     color: green;
 
-    margin-left: 630px;
+    margin-left: 430px;
     margin-top: 390px;
 
     position: absolute;
@@ -571,14 +572,15 @@ html {
     background-color: greenyellow;
 
     margin-top: 550px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 /* ---- Contato ---- */
 
 
 .letra {
-    margin-left: 750px;
+    margin-left: 600px;
+    margin-top: 40px;
 
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -590,7 +592,7 @@ form {
     gap: .5rem;
     width: 500px;
     margin: 0 auto;
-    margin-left: 690px;
+    margin-left: 550px;
 }
 
 label {
@@ -605,6 +607,7 @@ input, select, textarea {
     border-radius: 5px;
     font-size: 1.1rem;
 }
+
 button {
     padding: 13px;
     border: none;
@@ -619,6 +622,7 @@ button {
 textarea {
     resize: none;
 }
+
 input {
     color: #1a0f0f;
 }
@@ -650,9 +654,11 @@ label {
 .footer3 {
     font-family: 'Courier New', Courier, monospace;
     
-    margin-left: 760px;
-    margin-top: 185px;
+    margin-left: 600px;
+    margin-top: 85px;
 }
+
+/* Modelos */
 
 .fabricantes {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -669,19 +675,19 @@ label {
     
     position: absolute;
 
-    margin-left: 1300px;
+    margin-left: 1050px;
     margin-top: 50px;
 }
 
 #conteudo img{
-   margin-left: 1000px;
+   margin-left: 800px;
    margin-top: 250px ;
 
    position: absolute;
 }
 
 .abax {
-    margin-left: 1000px;
+    margin-left: 800px;
     margin-top: 180px;
     
     position: absolute;
@@ -699,7 +705,7 @@ label {
     position: absolute;
 
     margin-top: 550px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .abaxi2 {
@@ -714,7 +720,7 @@ label {
     position: absolute;
 
     margin-top: 280px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .abaxi3 {
@@ -729,8 +735,26 @@ label {
     position: absolute;
 
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
+
+#footer5 {
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-left: 600px;
+    margin-top: 52px;
+}
+
+.subir5 img {
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    
+    margin-top: -55px;
+    margin-left: 1530px;
+}
+
 
 /* ----  ---- */
 @media screen and (min-width:820px) and (max-width:1180px){
