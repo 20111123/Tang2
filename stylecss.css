@@ -60,6 +60,25 @@ html {
     border-radius: 60px;
 }
 
+.TROCAIDI img{
+    width: 90px;
+    height: 50px;
+
+    position: absolute;
+
+    margin-top: -80px;
+    margin-left: 1300px;
+}
+
+.TROCAIDI2 img{
+    width: 90px;
+    height: 50px;
+
+    position: absolute;
+
+    margin-top: -80px;
+    margin-left: 1400px;
+}
 /* ---- Index ---- */
 
 /* ---- Video inicial ---- */
@@ -67,7 +86,7 @@ html {
 .videos video{
     margin-top: 10px;
     
-    width: 1903px;
+    width: 1583px;
     
     position: relative;
 }
@@ -77,7 +96,7 @@ html {
 #footer {
     font-family: 'Courier New', Courier, monospace;
     
-    margin-left: 780px;
+    margin-left: 380px;
     margin-top: 52px;
 }
 
@@ -88,7 +107,7 @@ html {
     position: absolute;
     
     margin-top: -60px;
-    margin-left: 1840px;
+    margin-left: 1950px;
 }
 
 /* ---- Contato ---- */
@@ -116,6 +135,47 @@ html {
 /* ---- Sobre ---- */
 
 /* Página 1 do Sobre */
+
+/* ---- Menu do Sobre ----*/
+
+.menu2 {
+    height: 100px;
+    width: 880px;
+    
+    background-color: orange;
+    position: relative;
+    
+    margin-left: 23%;
+    margin-top: 1%;
+    
+    display: flex;
+    
+    border-radius: 60px;
+}
+
+.menu2 a {
+    padding-right: 30px;
+    padding-top: 26px;
+    padding-left: 40px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+}
+
+
+.hmenu2 img {
+    height: 100px;
+    width: 100px;
+    
+    margin-top: -25px;
+    margin-left: -50px;
+}
+
+.menu2 :hover {
+    color: aliceblue;
+    background: rgb(10, 167, 31);
+    border-radius: 60px;
+}
 
 /* ---- Corpo do Jornal ---- */
 
@@ -311,7 +371,7 @@ html {
 #footer1 {
     font-family: 'Courier New', Courier, monospace;
     
-    margin-left: 600px;
+    margin-left: 350px;
     margin-top: 50px;
 }
 
@@ -328,6 +388,47 @@ html {
 /* ---- Sobre2 ---- */
 
 /* Página 1 do Sobre2 */
+
+/* ---- Menu do Sobre2 ----*/
+
+.menu2 {
+    height: 100px;
+    width: 880px;
+    
+    background-color: orange;
+    position: relative;
+    
+    margin-left: 23%;
+    margin-top: 1%;
+    
+    display: flex;
+    
+    border-radius: 60px;
+}
+
+.menu2 a {
+    padding-right: 30px;
+    padding-top: 26px;
+    padding-left: 40px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+}
+
+
+.hmenu2 img {
+    height: 100px;
+    width: 100px;
+    
+    margin-top: -25px;
+    margin-left: -50px;
+}
+
+.menu2 :hover {
+    color: aliceblue;
+    background: rgb(10, 167, 31);
+    border-radius: 60px;
+}
 
 /* ---- Corpo do Jornal2 ---- */
 
@@ -654,109 +755,132 @@ label {
 .footer3 {
     font-family: 'Courier New', Courier, monospace;
     
-    margin-left: 600px;
+    margin-left: 350px;
     margin-top: 85px;
 }
 
-/* Modelos */
+/* Modelo */
 
-.fabricantes {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+.modelo{
+    background: linear-gradient(to right,rgb(18, 9, 29)48.5%, rgb(176, 233, 90));
 
-    background-color: aliceblue;
-    border-radius: 15px;
-    border: 2px solid black;
+    width: 1583px;
+    height: 700px;
 
-    width: 500px;
-    height: 100px;
-    
-    padding: 10px;
-    
-    position: absolute;
-
-    margin-left: 1050px;
     margin-top: 50px;
 }
 
-#conteudo img{
-   margin-left: 800px;
-   margin-top: 250px ;
+.suco img{
+    height: 300px;
 
-   position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
 }
 
-.abax {
+.jarra {
+    position: absolute;
+
     margin-left: 800px;
-    margin-top: 180px;
-    
-    position: absolute;
+    margin-top: -300px;
 }
 
-.abaxi {
-    width: 220px;
-    height: 200px;
-
-    background-color: greenyellow;
-
-    border-radius: 15px;
-    border: 4px solid black;
-
+.saco {
     position: absolute;
 
-    margin-top: 550px;
-    margin-left: 50px;
+    margin-left: 824.4px;
+    margin-top: -160px;
 }
 
-.abaxi2 {
-    width: 220px;
-    height: 200px;
-
-    background-color: rgb(255, 47, 47);
-
-    border-radius: 15px;
-    border: 4px solid black;
-
+.botao6 {
     position: absolute;
 
-    margin-top: 280px;
-    margin-left: 50px;
+    width: 120px;
+
+    margin-left: 700px;
+
+    border-radius: 25px;
+    border-color: blue;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 245, 94);
+
+    background-color: #000000;
 }
 
-.abaxi3 {
-    width: 220px;
-    height: 200px;
-
-    background-color: rgb(175, 32, 7);
-
-    border-radius: 15px;
-    border: 4px solid black;
-
+.botao5 {
     position: absolute;
 
-    margin-top: 20px;
-    margin-left: 50px;
+    width: 120px;
+
+    margin-left: 850px;
+
+    border-radius: 25px;
+    border-color: blue;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(223, 93, 6);
+
+    background-color: #000000;
 }
 
-#footer5 {
-    font-family: 'Courier New', Courier, monospace;
-    
-    margin-left: 600px;
-    margin-top: 52px;
-}
-
-.subir5 img {
-    width: 50px;
-    height: 50px;
-    
+.botao4 {
     position: absolute;
-    
-    margin-top: -55px;
-    margin-left: 1530px;
+
+    width: 120px;
+
+    margin-left: 1000px;
+
+    border-radius: 25px;
+    border-color: blue;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(236, 111, 89);
+
+    background-color: #000000;
 }
 
+.botao1{
+    width: 60px;
+    position: absolute;
+
+    border-radius: 30px;
+    border: #000000;
+
+    margin-top: -180px;
+    margin-left: 530px;
+
+    font-size: 30px;
+
+    color: #c40909;
+    background-color: #030303;
+}
+
+.botao2{
+    width: 60px;
+    position: absolute;
+
+    border-radius: 30px;
+    border: #000000;
+
+    margin-top: -180px;
+
+    margin-left: 90px;
+
+    font-size: 30px;
+
+    color: #c40909;
+    background-color: #030303;
+}
+
+/* Modelo2 */
+
+/* Modelo3 */
 
 /* ----  ---- */
+
 @media screen and (min-width:820px) and (max-width:1180px){
 
 .bodyIndex{
@@ -766,13 +890,13 @@ label {
 
 
 .menu {
-    height: 90px;
-    width: 740px;
+    height: 120px;
+    width: 780px;
     
     background-color: orange;
     position: absolute;
 
-    margin-left: 5%;
+    margin-left: 2.5%;
     margin-top: 1%;
     
     display: flex;
@@ -780,14 +904,23 @@ label {
 } 
    
 .menu a {
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-right: 2px;
+    padding-top: 40px;
+    margin-left: 18px;
     
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #000000;
     
-    font-size:10px;
+    font-size:15px;
+}
+
+.hmenu img {
+    height: 120px;
+    width: 120px;
+    
+    margin-top: -40px;
+    margin-left: -60px;
+    position: absolute;
 }
 
 .videos video{
@@ -798,19 +931,13 @@ label {
     position: relative;
 }
 
-.hmenu img {
-    height: 90px;
-    width: 90px;
-    
-    margin-top: -30px;
-    margin-left: -30px;
-}
-
 #footer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px ;
+    font-size: 20px ;
+
     position: absolute;
-    margin-left: 38px;
+
+    margin-left: 10px;
     margin-top: 500px;
 }
 
@@ -826,7 +953,563 @@ label {
         margin-left: 10px;
 }
 
+/* ---- Sobre ---- */
+
+/* Página 1 do Sobre */
+
+/* ---- Menu do Sobre ---- */
 
 
+.menu2 {
+    height: 120px;
+    width: 780px;
+    
+    background-color: orange;
+    position: absolute;
+
+    margin-left: 2.5%;
+    margin-top: -17%;
+    
+    display: flex;
+    
+} 
+   
+.menu2 a {
+    padding-right: 2px;
+    padding-top: 40px;
+    margin-left: 18px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+    
+    font-size:15px;
+}
+
+.hmenu2 img {
+    height: 120px;
+    width: 120px;
+    
+    margin-top: -40px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+/* ---- Corpo do Jornal ---- */
+
+.jornal {
+    width: 751px;
+    height: 5030px;
+
+    background-color: aliceblue;
+
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.p1 {
+    width: 701px;
+    height: 4850px;
+
+    background-color: rgb(231, 229, 229);
+
+    margin-left: 27px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.troca {
+    margin-top: 4930px;
+    margin-left: 650px;
+
+    position: absolute;
+}
+
+.troca img {
+    height: 90px;
+    width: 90px;
+}
+
+/* ---- Estrutura de texto e imagem ---- */
+.titulos {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 210px;
+}
+
+.conteudos {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.magem {
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+/* Página 2 do Sobre */
+
+.titulos2 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    margin-left: 290px;
+    margin-top: 50px;
+}
+
+.conteudos2 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.conteudos3 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.magem2 img{
+    width: 600px;
+
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+/* Página 3 do Sobre */
+
+.titulos3 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 240px;
+    margin-top: 80px;
+}
+
+.conteudos4 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.conteudos5 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.magem3 img{
+    width: 600px;
+
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+/* Página 4 do Sobre */
+
+.titulos4 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.conteudos6 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.conteudos7 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.conteudos8 {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+    width: 600px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.paginacao {
+    position: absolute;
+
+    margin-left: 330px;
+    margin-top: 100px;
+
+    font-size: larger;
+}
+
+/*  ---- Rodapé Sobre ---- */
+
+#footer1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px ;
+
+    position: relative;
+
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.subir img {
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    
+    margin-top: -60px;
+    margin-left: 1500px;
+}
+
+/* ---- Sobre2 ---- */
+
+/* Página 1 do Sobre2 */
+
+/* ---- Menu do Sobre2 ----*/
+
+.menu2 {
+    height: 120px;
+    width: 780px;
+    
+    background-color: orange;
+    position: absolute;
+
+    margin-left: 2.5%;
+    margin-top: -17%;
+    
+    display: flex;
+    
+} 
+   
+.menu2 a {
+    padding-right: 2px;
+    padding-top: 40px;
+    margin-left: 18px;
+    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000000;
+    
+    font-size:15px;
+}
+
+.hmenu2 img {
+    height: 120px;
+    width: 120px;
+    
+    margin-top: -40px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+/* ---- Corpo do Jornal2 ---- */
+
+.jornal2 {
+    width: 751px;
+    height: 6285px;
+
+    background-color: aliceblue;
+
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.p2 {
+    width: 701px;
+    height: 6105px;
+
+    background-color: rgb(231, 229, 229);
+
+    margin-left: 27px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+/* ---- Estrutura de texto e imagem ---- */
+
+.titulos12 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 170px;
+}
+
+.magem12 {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+/* Página 2 do Sobre2 */
+
+.titulos13 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.magem13 img{
+    margin-top: 50px;
+    margin-left: 160px;
+
+    width: 400px;
+    
+}
+
+/* Página 3 do Sobre2 */
+
+.titulos14 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+.magem14 img{
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+
+/* Página 4 do Sobre2 */
+
+.titulos15 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+.magem15 img{
+    margin-top: 50px;
+    margin-left: 150px;
+    
+    width: 400px;
+}
+
+/* Página 5 do Sobre2 */
+
+.titulos16 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.magem16 img{
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+/* Página 6 do Sobre2 */
+
+.titulos17 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.magem17 img{
+    margin-top: 50px;
+    margin-left: 160px;
+
+    width: 400px;
+}
+
+/* Página 7 do Sobre2 */
+
+.titulos18 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.magem18 img{
+    margin-top: 50px;
+    margin-left: 180px;
+
+    width: 400px;
+}
+
+.titulos18 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.magem18 img{
+    margin-top: 50px;
+    margin-left: 150px;
+
+    width: 400px;
+}
+
+/* Página 8 do Sobre2 */
+
+.titulos19 {
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; ;
+
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.magem19 img{
+    margin-top: 50px;
+    margin-left: 55px;
+
+    width: 600px;
+}
+
+.troca2 {
+    margin-top: 6195px;
+    margin-left: 30px;
+
+    position: absolute;
+}
+
+.troca2 img {
+    height: 80px;
+    width: 80px;
+}
+
+/* ---- Contato ---- */
+
+
+.letra {
+    margin-left: 200px;
+    margin-top: 147px;
+
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 130px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 4px solid #8b6060;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c40909;
+    color: #030303;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    color: #1a0f0f;
+}
+
+.caixa1 {
+    width: 510px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+
+.caixa1 {
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.footer3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px ;
+
+    position: relative;
+
+    margin-left: 10px;
+    margin-top: 345.5px;
+}
 
 }
