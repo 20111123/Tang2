@@ -770,24 +770,49 @@ label {
     margin-top: 50px;
 }
 
-.suco img{
+.modelo2{
+    background: linear-gradient(to right,rgb(18, 9, 29)48.5%, rgb(223, 93, 6));
+
+    width: 1583px;
+    height: 700px;
+
+    margin-top: 50px;
+}
+
+.modelo3{
+    background: linear-gradient(to right,rgb(18, 9, 29)48.5%, rgb(236, 111, 89));
+
+    width: 1583px;
+    height: 700px;
+
+    margin-top: 50px;
+}
+
+.suco {
     height: 300px;
 
     margin-left: 200px;
     margin-top: 100px;
+
+    
+}
+
+.suco img{
+    height: 300px;
+    
 }
 
 .jarra {
     position: absolute;
 
-    margin-left: 800px;
+    margin-left: 930px;
     margin-top: -300px;
 }
 
 .saco {
     position: absolute;
 
-    margin-left: 824.4px;
+    margin-left: 954.4px;
     margin-top: -160px;
 }
 
@@ -796,7 +821,8 @@ label {
 
     width: 120px;
 
-    margin-left: 700px;
+    margin-left: 350px;
+    margin-top: 370px;
 
     border-radius: 25px;
     border-color: blue;
@@ -813,7 +839,8 @@ label {
 
     width: 120px;
 
-    margin-left: 850px;
+    margin-left: 500px;
+    margin-top: 370px;
 
     border-radius: 25px;
     border-color: blue;
@@ -830,7 +857,8 @@ label {
 
     width: 120px;
 
-    margin-left: 1000px;
+    margin-left: 650px;
+    margin-top: 370px;
 
     border-radius: 25px;
     border-color: blue;
@@ -849,8 +877,8 @@ label {
     border-radius: 30px;
     border: #000000;
 
-    margin-top: -180px;
-    margin-left: 530px;
+    margin-top: 210px;
+    margin-left: 40px;
 
     font-size: 30px;
 
@@ -865,9 +893,9 @@ label {
     border-radius: 30px;
     border: #000000;
 
-    margin-top: -180px;
+    margin-top: 210px;
 
-    margin-left: 90px;
+    margin-left: -390px;
 
     font-size: 30px;
 
